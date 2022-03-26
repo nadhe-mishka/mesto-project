@@ -1,0 +1,13 @@
+.form__input {
+    width: 100%;
+    margin: 0;
+    border: none;
+    gap: 30px;
+    padding: 14px 0 45px 0;
+}
+
+@media screen and (max-width: 767px) {
+    .form__input {
+        padding: 45px 0;
+    }
+}

@@ -1,0 +1,26 @@
+.page {
+    min-width: 320px;
+    max-width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 14px minmax(730px, 880px) 14px;
+    grid-template-areas: 
+    ". header ."
+    ". main ."
+    ". footer .";
+    justify-content: center; 
+    background-color: #000;
+    font-family: 'Inter';
+    color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+    .page {
+        grid-template-columns: 19px minmax(282px, 730px) 19px;
+        grid-template-areas: 
+        "header header header"
+        ". main ."
+        ". footer .";
+    }
+}
+

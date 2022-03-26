@@ -1,0 +1,7 @@
+.main {
+    grid-area: main;
+    margin: auto;
+    width: minmax(740px, 880px);
+    display: flex;
+    flex-direction: column;
+}

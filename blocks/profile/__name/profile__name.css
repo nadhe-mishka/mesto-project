@@ -1,0 +1,15 @@
+.profile__name {
+    grid-area: name;
+    font-size: 42px;
+    line-height: 48px;
+    font-weight: 600;
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .profile__name {
+        font-size: 27px;
+        line-height: 33px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,24 @@
+.form__toggle {
+    background-image: url(../../../images/close.svg);
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+    transition: 0.5s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -203px 0 0 221px;
+}
+
+.form__toggle:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+    .form__toggle {
+        width: 20px;
+        height: 20px;
+        margin: -197px 0 0 121px;
+    }
+}
