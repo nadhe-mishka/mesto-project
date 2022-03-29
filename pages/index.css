@@ -19,6 +19,7 @@
 @import url(../blocks/card/__photo/card__photo.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/\ _state_opened/.popup_state_opened);
 @import url(../blocks/popup/__container/popup__container.css);
 @import url(../blocks/popup/__toggle/popup__toggle.css);
 @import url(../blocks/form/form.css);

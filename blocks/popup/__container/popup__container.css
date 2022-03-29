@@ -10,6 +10,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-items: end;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
 }
 
 @media screen and (max-width: 767px) {
@@ -18,3 +19,5 @@
         padding: 22px;
     }
 }
+
+/* не могу найти ошибку в позиционировании контейнера, верно открывается в хроме, сафари и яндексе на разных разрешениях */
