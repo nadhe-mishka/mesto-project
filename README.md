@@ -4,4 +4,4 @@
 
 CSS HTML
 
-https://nadhe-mishka.github.io//mesto/index.html
+https://nadhe-mishka.github.io//mesto-project/index.html
