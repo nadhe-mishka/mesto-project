@@ -1,4 +1,4 @@
-.form__container {
+.popup__container {
     align-self: center;
     justify-self: center;
     background-color: #fff;
@@ -13,8 +13,8 @@
 }
 
 @media screen and (max-width: 767px) {
-    .form__container {
+    .popup__container {
         width: 238px;
-        padding: 24px;
+        padding: 22px;
     }
 }

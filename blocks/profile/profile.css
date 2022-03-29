@@ -12,7 +12,6 @@
     .profile {
         flex-direction: column;
         justify-content: center;
-        align-items: center;
         column-gap: 26px;
         padding-top: 42px;
         padding-bottom: 36px;

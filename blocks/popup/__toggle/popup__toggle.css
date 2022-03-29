@@ -1,5 +1,7 @@
-.form__toggle {
+.popup__toggle {
     background-image: url(../../../images/close.svg);
+    background-color: rgba(255, 255, 255, 0%);
+    border: none;
     background-size: cover;
     width: 32px;
     height: 32px;
@@ -10,13 +12,13 @@
     margin: -203px 0 0 221px;
 }
 
-.form__toggle:hover {
+.popup__toggle:hover {
     opacity: 60%;
     cursor: pointer;
 }
 
 @media screen and (max-width: 767px) {
-    .form__toggle {
+    .popup__toggle {
         width: 20px;
         height: 20px;
         margin: -197px 0 0 121px;
