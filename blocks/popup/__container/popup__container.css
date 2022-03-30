@@ -1,6 +1,4 @@
 .popup__container {
-    align-self: center;
-    justify-self: center;
     background-color: #fff;
     border-radius: 10px;
     margin: auto;
@@ -19,5 +17,3 @@
         padding: 22px;
     }
 }
-
-/* не могу найти ошибку в позиционировании контейнера, верно открывается в хроме, сафари и яндексе на разных разрешениях */
